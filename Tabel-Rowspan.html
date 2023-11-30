@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabel Rowspan</title>
+    </head>
+    <body>
+    <table width="50%" border="1" cellpadding="5px" style="border=collapse:collapse;">
+        <!--width = size tabel yang berukuran 50% dari lebar
+        cellpandding untuk memberi space antara border cell dan teks didalamnya 
+        border-collapse untuk menyatukan border antar cell-->
+    <thead>
+        <tr>
+            <th width="30%">Nama Mata Pelajaran</th><!--ukran 30% dari ukuran tabel-->
+            <th width="70%">Materi</th><!--ukran 70% dari ukuran tabel--> 
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data Pemogramaan Dasar -->
+        <tr>
+            <td rowspan="4">Pemograman Dasar</td>
+            <td>Flowchart</td>
+        </tr>
+        <tr>
+            <td>Variabel dan Tipe Data</td>
+        </tr>
+        <tr>
+            <td>Looping</td>
+        </tr>
+        <tr>
+            <td>Array</td>
+        </tr>
+        <!-- Data Basis Data -->
+        <tr>
+            <td rowspan="3">Basis Data</td>
+            <td>Data Manipulatif Language</td>
+        </tr>
+        <tr>
+            <td>Data Definition Language</td>
+        </tr>
+        <tr>
+            <td>Entinity Relationship Diagram</td>
+        </tr>
+    </tbody>
+    </table>    
+    </body>
+</html>
